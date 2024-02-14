@@ -1,0 +1,1 @@
+import{a as n}from"./nxCloud-d60f7109.js";import{ap as r,aq as a,v as u}from"./index-e881fdae.js";const _={__name:"Login",setup(c){var e;const t=r(),s=a(),o=(e=t.query)==null?void 0:e.code;return o&&(console.log(o),n(o).then(()=>{u.loggedin&&s.push({name:"Home"})})),(i,g)=>" Logging in... "}};export{_ as default};
